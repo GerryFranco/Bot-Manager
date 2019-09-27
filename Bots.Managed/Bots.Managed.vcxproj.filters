@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Interface Factory">
+      <UniqueIdentifier>{81f4e7c0-a732-490a-9bb4-232d3c53ec0e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Bot">
+      <UniqueIdentifier>{5516baeb-ca3c-48a1-9060-df0b62a8c99c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Bot Manager">
+      <UniqueIdentifier>{a5c2a1ea-8679-491c-8c8a-90e8f917c678}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Other Files">
+      <UniqueIdentifier>{d2bbbd32-ccdb-45f0-8533-2d9315343180}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="InterfaceFactory.h">
+      <Filter>Interface Factory</Filter>
+    </ClInclude>
+    <ClInclude Include="BotManagerImplementer.h">
+      <Filter>Bot Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="BotImplementer.h">
+      <Filter>Bot</Filter>
+    </ClInclude>
+    <ClInclude Include="BotDto.h">
+      <Filter>Bot</Filter>
+    </ClInclude>
+    <ClInclude Include="Stdafx.h">
+      <Filter>Other Files</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Other Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="InterfaceFactory.cpp">
+      <Filter>Interface Factory</Filter>
+    </ClCompile>
+    <ClCompile Include="BotImplementer.cpp">
+      <Filter>Bot</Filter>
+    </ClCompile>
+    <ClCompile Include="BotManagerImplementer.cpp">
+      <Filter>Bot Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="BotDto.cpp">
+      <Filter>Bot</Filter>
+    </ClCompile>
+    <ClCompile Include="Stdafx.cpp">
+      <Filter>Other Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AssemblyInfo.cpp">
+      <Filter>Other Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="app.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="app.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+</Project>

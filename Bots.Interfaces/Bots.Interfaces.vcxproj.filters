@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="IBot">
+      <UniqueIdentifier>{c39bf813-a577-405b-a36d-888b7d274a3c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="IBotManager">
+      <UniqueIdentifier>{d03b2382-5a51-41de-9548-8e42126eca2a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Other Files">
+      <UniqueIdentifier>{09b5a0f3-c4d2-4211-ac10-5faf4889aa63}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="IBotManager.h">
+      <Filter>IBotManager</Filter>
+    </ClInclude>
+    <ClInclude Include="BotTask.h">
+      <Filter>IBot</Filter>
+    </ClInclude>
+    <ClInclude Include="BotType.h">
+      <Filter>IBot</Filter>
+    </ClInclude>
+    <ClInclude Include="IBot.h">
+      <Filter>IBot</Filter>
+    </ClInclude>
+    <ClInclude Include="BotTaskUpdateEventArgs.h">
+      <Filter>IBot</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Other Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Stdafx.h">
+      <Filter>Other Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BotTaskStatus.h">
+      <Filter>IBot</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="BotTaskUpdateEventArgs.cpp">
+      <Filter>IBot</Filter>
+    </ClCompile>
+    <ClCompile Include="AssemblyInfo.cpp">
+      <Filter>Other Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Bots.Interfaces.cpp">
+      <Filter>Other Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Stdafx.cpp">
+      <Filter>Other Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="app.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="app.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
