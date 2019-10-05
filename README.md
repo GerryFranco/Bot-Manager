@@ -20,7 +20,7 @@ US Robots Corporation has invested $2 billion dollars over a period of five year
 
 Over time, the cost to manufacture the robots has decreased and other lucrative markets (such as home automation) have started to express interest in robot technology. As such, US Robots is now considering repurposing their robots for this broader market.
 
-Home Automation LLC has expressed huge interest in the robots and also sees a market opportunity. In fact, Home Automation LLC wants to be the first home automation service to interface with the state-of-the-art robot technology. Unfortunately, all of Home Automation's systems are written in managed .NET languages such as C#, so they're having a very hard time interfacing with the robots native libraries and APIs.
+Home Automation LLC has expressed huge interest in the robots and also sees a market opportunity. In fact, Home Automation LLC wants to be the first home automation service to interface with the state-of-the-art robot technology. Unfortunately, all of Home Automation's systems are written in managed .NET languages such as C#, so they're having a very hard time interfacing with the robot native libraries and APIs.
 
 Since US Robots is also looking into developing its own home automation systems, it has decided that it will not rewrite any of its code or develop a special API to assist Home Automation LLC. As such, Home Automation LLC will have to solve the problem by itself.
 
