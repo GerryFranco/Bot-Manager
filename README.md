@@ -67,6 +67,8 @@ is written in both C++ and C++/CLI. It serves as the actual bridge where all the
 
 Visual Studio 2015 was used to develop the Bot Manager and all the libraries. To open and build the solution in Visual Studio, ensure the 2015 platform toolset (v140) is installed. Visual C++ support will also be required. Once built, three DLL files will be generated (Bots.Native.dll, Bots.Managed.dll, and Bots.Interfaces.dll) and an executable called "Bot Manager App.exe". For persistence, the application will generate a simple JSON file called "BotsLog.json". All files get generated in the same directory.
 
+You can also avoid the build and just download the file "Bot Manager Demo.zip" to run Bot Manager directly. This file contains 32bit and 64bit release versions of Bot Manager and all DLL files.
+
 ## How to Use Bot Manager
 
 US Robots identifies its robots by name and type. It specifies 6 types of robots: 
