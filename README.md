@@ -35,7 +35,7 @@ systems that took years to develop and cost millions of dollars cannot simply be
 
 In this particular example, we present a typical development scenario that contains the following 3 layers:
 
-# Third Party Native Library
+### Third Party Native Library
 
 This is the C++ library you're trying to interop with. It's usually a third-party library or an internal company library. 
 It may be one monolithic library or several of them, ideally containing easy-to-use APIs, if you're lucky. 
@@ -44,14 +44,14 @@ what you're given and you have to talk to it, no matter what.
 
 For our demonstration, US Robots has provided us with a native C++ library called "Bots.Native.dll" that contains all the code and  APIs needed to interact with their robots.
 
-# Your Managed Library (or Managed Application)
+### Your Managed Library (or Managed Application)
 
 This is the code that needs to interop with the native library. It's probably something you developed or helped develop and probably takes the form of a library or an application. Most likely, it runs on the world's most popular runtime, the CLI, and 
 since the Microsoft .NET Framework is the most popular implementation of the CLI, it's probably written in some .NET language.
 
 For our demonstration, we have built a simple Winform prototype application developed in C# called "Bot Manager". With this app, users can connect to their robots by name, assign them complex tasks, and also track those tasks. Recall that the purpose of this prototype app is to show Home Automation, LLC how easy it is for their managed systems to talk to those native robot APIs.
 
-# C++/CLI Bridge Library (API and Implementation)
+### C++/CLI Bridge Library (API and Implementation)
 
 C++/CLI is a language that allows you to easily extend a C++ code base with .NET features. Since C++/CLI is superset of C++, any program written in C++/CLI is also a valid C++ program, which is why C++/CLI is now the industry standard native-to-managed migration strategy.
 
