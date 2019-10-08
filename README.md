@@ -69,7 +69,16 @@ Visual Studio 2015 was used to develop the Bot Manager and all the libraries. To
 
 ## How to Use Bot Manager
 
-US Robots identifies its robots by name and type. It specifies 6 types of robots: unipedal, bipedal, quadripedal, arachnid, radial, and aeronautical. In order to connect to a robot, Bot Manager collects its name and its robot type. Since this is a demo application, you can enter any robot name and specify any type and Bot Manager will "automatically" connect to that robot. According to US Robots, robot names are always unique and serve as their serial number. As such, Bot Manager cannot connect to more than one robot with the same name, so users must ensure every name is unique.
+US Robots identifies its robots by name and type. It specifies 6 types of robots: 
+
+- Unipedal 
+- Bipedal 
+- Quadripedal 
+- Arachnid 
+- Radial
+- Aeronautical 
+
+In order to connect to a robot, Bot Manager collects its name and its robot type. Since this is a demo application, you can enter any robot name and specify any type and Bot Manager will "automatically" connect to that robot. According to US Robots, robot names are always unique and serve as their serial number. As such, Bot Manager cannot connect to more than one robot with the same name, so users must ensure every name is unique.
 
 Once Bot Manager collects the robot name and type, the user can connect to a robot by clicking the "Connect to Bot" button. Bot Manager then proceeds to automatically assign 5 random and complex tasks for the robot to complete and then tracks those tasks in the "Task List". Some tasks take more time to complete than others, but once a task is completed by a robot, it is removed from the list.
 
