@@ -1,19 +1,16 @@
 # Bot-Manager by Gerry Franco
 
 This project demonstrates the powerful capabilities of C++/CLI for native and managed interoperability 
-using a real-world development scenario. All code was written from scratch and all UI graphics designed in Photoshop
-by me for the purposes of this demo.
+using a real-world development scenario. All code and UI is written and designed from scratch for the purposes of this demo.
 
 ## Introduction
 
 If you've ever developed for a company specializing in electronics or national defense, you've probably encountered your fair share 
-of C++. Heck, C++'s proximity to hardware, speed and expanded feature set makes it the obvious development choice for modern embedded devices and the increasingly complex and challenging applications consuming them.
+of C++. In fact, it's the tool of choice. Modern embedded devices and the increasingly complex and challenging applications consuming them require the precise control, high performance, and flexibility that only C++ can deliver.
 
-Yet, the world's most important systems and institutions also run on C++. Systems such as Linux, Windows, the Java Virtual Machine (JVM) and .NET Framework CLR were all written in C++. Relational database programs such as MySQL and Microsoft SQL Server were written in C++. Even well-known non-relational (NO-SQL) database programs, 
-such as MongoDB were also written in C++. In fact, even portions of the Apple OS have been written in C++! 
-There's no question about it, the language seems to either form the foundation of well-known modern systems or it permeates them. If the best tools lead to the best inventions, then C++ has proven to be the most powerful and flexible tool available in modern software development.
+But, the world's most important systems and institutions also run on C++. Believe it or not, systems such as Linux, Windows, the Java Virtual Machine (JVM) and .NET Framework CLR are all written in C++. Relational database programs such as MySQL and Microsoft SQL Server are also written in C++. Even non-relational (NO-SQL) database programs such as MongoDB are written in C++. In fact, even portions of the Apple OS are written in C++! If the best tools lead to the best inventions, then C++ has proven to be the most powerful and flexible tool available in modern software development. Without a doubt, the language seems to either form the foundation of most modern systems or it permeates them.
 
-So, with the advent of these systems, we now end up with this massive marketplace of different technologies attempting to perfect, consume, build-upon, or communicate with these systems. Such interactions between systems (of any kind) is known as interoperability. In the software realm, we call it interop. An unrestricted bridge for information exchange.
+Yet, with the advent of these systems, we now end up with this massive marketplace of new technologies attempting to perfect, consume, build-upon or communicate with such systems. Such interactions between systems (of any kind) is known as interoperability. In the software realm, we call it interop. An unrestricted bridge for information exchange. Let's observe a real-life scenario: 
 
 ## Real World Scenario
 
